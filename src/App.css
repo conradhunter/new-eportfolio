@@ -22,3 +22,8 @@ body {
   display: flex;
   margin: 0 auto;
 }
+
+#nav__sideBar {
+  position: sticky;
+  top: 0;
+}

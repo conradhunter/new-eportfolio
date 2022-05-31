@@ -6,7 +6,7 @@ import javaScript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import fireBase from "../assets/firebase.png";
 import creativeCloud from "../assets/creativecloud.png";
-import restAPI from '../assets/rest-api.png';
+import restAPI from '../assets/restAPI.png';
 
 const Languages = () => {
   return (

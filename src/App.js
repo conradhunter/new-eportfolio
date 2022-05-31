@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav/>
+        <Nav id='nav__sideBar'/>
             <div id='content__wrapper'>
               <Routes>
                 <Route exact path="/" element={<About/>} />
