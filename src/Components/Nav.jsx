@@ -10,7 +10,7 @@ const Nav = () => {
         <div id="nav">
             <ul id="nav__bar--links">
                 <li>
-                    <Link className='nav__bar--link' to="/about">About</Link>
+                    <Link className='nav__bar--link' to="/">About</Link>
                 </li>
                 <li>
                <Link className='nav__bar--link' to="/languages">Languages</Link>

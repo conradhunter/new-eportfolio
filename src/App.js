@@ -1,6 +1,6 @@
 import './App.css';
 import Nav from './Components/Nav';
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from './pages/About';
 import Languages from './pages/Languages';
 import Projects from './pages/Projects';
@@ -11,17 +11,16 @@ function App() {
     <Router>
       <div className="App">
         <Nav/>
-          <Routes>
             <div id='content__wrapper'>
-              <Route exact path="/" element={<About/>}/>
-              <Route exact path="/languages" element={<Languages/>}/>
-              <Route exact path="/projects" element={<Projects/>}/>
-              <Route exact path="/contact" element={<Contact/>}/>
+              <Routes>
+                <Route exact path="/" element={<About/>} />
+                <Route exact path="/languages" element={<Languages/>} />
+                <Route exact path="/projects" element={<Projects/>} />
+                <Route exact path="/contact" element={<Contact/>} />
+              </Routes>
             </div>
-
-          </Routes>
       </div>
-    </Router>
+      </Router>
   );
 }
 
