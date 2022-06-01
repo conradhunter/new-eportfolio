@@ -7,6 +7,11 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
 function App() {
+
+  window.oncontextmenu = function () {
+    return false;
+  };
+
   return (
     <Router>
       <div className="App">
