@@ -53,3 +53,19 @@ NAVBAR
     margin: 10px;
     transition: all 300ms ease;
 }
+
+/* .nav__bar--link::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    width: 0;
+    right: 0;
+    background-color: #fff;
+    transition: all 450ms ease;
+}
+
+.nav__bar--link:hover::after {
+    left: 0;
+    width: 100%;
+} */

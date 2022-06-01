@@ -2,12 +2,20 @@
   max-width: fit-content;
   padding: 4px 6px;
   font-size: 18px;
-  border: 2px solid var(--babyBlue-color);
   background-color: var(--darkGray-color);
+  border: none;
   color: #ffffff;
   border-radius: 3px;
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
 }
 
 /* ABOUT */
@@ -39,7 +47,7 @@
 
 #about__para {
   color: #ffffff;
-  max-width: 500px;
+  max-width: 525px;
   font-size: 1.15rem;
   font-weight: 500;
   text-align: center;
@@ -226,6 +234,7 @@
 .project__title {
   color: var(--babyBlue-color);
   margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 .project__subTitle {
@@ -254,6 +263,26 @@
 
 #scrollToTop__icon {
   font-size: 32px;
+  color: var(--babyBlue-color);
+}
+
+#project__contactPage--link {
+  color: #000000;
+  text-decoration: none;
+}
+
+#projectsContact__btn {
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 20px;
+  background-color: var(--babyBlue-color);
+  color: #000000;
+  margin-bottom: 20px;
+  transition: all 300ms ease;
+}
+
+#projectsContact__btn:hover {
+  transform: scale(1.05);
 }
 
 #scrollToTop__icon {
@@ -282,5 +311,79 @@
 /* CONTACT */
 
 #contact__container {
-    
+  margin-top: 50px;
+  text-align: center;
+}
+
+#contact__heading {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.form__label {
+  color: #ffffff;
+}
+
+#form__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+.labelInput__container {
+  max-width: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.labelInput__container label {
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.labelInput__container input {
+  border: none;
+  height: 30px;
+  padding: 4px;
+  background-color: #c5c5c5;
+  border-bottom: 2px solid var(--babyBlue-color);
+  border-radius: 3px;
+  font-size: 16px;
+  color: #ffffff;
+}
+#contact__textArea {
+  border: none;
+  padding: 4px;
+  background-color: #c5c5c5;
+  border-bottom: 2px solid var(--babyBlue-color);
+  border-radius: 3px;
+  height: 100px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#submit__contactForm {
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background-color: var(--babyBlue-color);
+  color: #000000;
+  margin-bottom: 20px;
+  transition: all 300ms ease;
+}
+
+#submit__contactForm:hover {
+  transform: scale(1.05);
+}
+
+#undraw__contactImage {
+    max-width: 500px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }

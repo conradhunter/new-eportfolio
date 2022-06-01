@@ -26,3 +26,13 @@ body {
   position: absolute;
   justify-content: center;
 }
+
+::-webkit-scrollbar {
+  overflow: scroll;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #62e1e9;
+  border-radius: 10px;
+}
