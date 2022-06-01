@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav id='nav__sideBar'/>
+        <Nav/>
             <div id='content__wrapper'>
               <Routes>
                 <Route exact path="/" element={<About/>} />
@@ -20,7 +20,7 @@ function App() {
               </Routes>
             </div>
       </div>
-      </Router>
+    </Router>
   );
 }
 

@@ -5,7 +5,7 @@ NAVBAR
 */
 
 #nav {
-    max-width: 25%;
+    max-width: 20%;
     width: 100%;
     height: 100vh;
     background-color: var(--darkGray-color);
@@ -14,6 +14,7 @@ NAVBAR
     justify-content: center;
     align-items: center;
     border-right: 1px solid var(--babyBlue-color);
+    position: fixed;
 }
 
 #nav__bar--links {
