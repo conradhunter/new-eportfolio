@@ -37,7 +37,7 @@ const About = () => {
       </div>
       <div id="about__logo">
         <figure>
-          <img src={logo} alt="" />
+          <img src={logo} id='about__logo' alt="" />
         </figure>
       </div>
     </div>

@@ -11,6 +11,7 @@ import agencyApp from "../assets/agency-ss.png";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
+  
   function scrollToTop() {
     window.scrollTo({
       top: 0,
