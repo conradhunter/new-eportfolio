@@ -43,7 +43,7 @@ const Projects = () => {
             API for the player to guess.
           </p>
           <div className="project__icon--links">
-            <a href="https://github.com/conradhunter/wordle-clone">
+            <a href="https://github.com/conradhunter/wordle-clone" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faGithub} />
             </a>
             <a href="">
@@ -71,10 +71,10 @@ const Projects = () => {
             clinic.
           </p>
           <div className="project__icon--links">
-            <a href="https://github.com/conradhunter/skin-gym-react">
+            <a href="https://github.com/conradhunter/skin-gym-react" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faGithub} />
             </a>
-            <a href="https://skin-gym-sylvania-react.netlify.app">
+            <a href="https://skin-gym-sylvania-react.netlify.app" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faLink} />
             </a>
           </div>
@@ -89,10 +89,10 @@ const Projects = () => {
             React, JavaScript and CSS best practices.
           </p>
           <div className="project__icon--links">
-            <a href="https://github.com/conradhunter/twitter-clone">
+            <a href="https://github.com/conradhunter/twitter-clone" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faGithub} />
             </a>
-            <a href="https://conradhunter.github.io/twitter-clone/">
+            <a href="https://conradhunter.github.io/twitter-clone/" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faLink} />
             </a>
           </div>
@@ -117,9 +117,9 @@ const Projects = () => {
           </p>
           <div className="project__icon--links">
             <a href="https://github.com/conradhunter/JS-Calculator">
-              <FontAwesomeIcon className="project__icon" icon={faGithub} />
+              <FontAwesomeIcon className="project__icon" icon={faGithub} target='_blank'/>
             </a>
-            <a href="https://conradhunter.github.io/JS-Calculator/">
+            <a href="https://conradhunter.github.io/JS-Calculator/" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faLink} />
             </a>
           </div>
@@ -134,10 +134,10 @@ const Projects = () => {
             CSS best practices.
           </p>
           <div className="project__icon--links">
-            <a href="https://github.com/conradhunter/client-e-portfolio">
+            <a href="https://github.com/conradhunter/client-e-portfolio" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faGithub} />
             </a>
-            <a href="https://conradhunter.github.io/client-e-portfolio/">
+            <a href="https://conradhunter.github.io/client-e-portfolio/" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faLink} />
             </a>
           </div>
@@ -162,10 +162,10 @@ const Projects = () => {
             myself and some friends.
           </p>
           <div className="project__icon--links">
-            <a href="https://github.com/conradhunter/agency-app">
+            <a href="https://github.com/conradhunter/agency-app" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faGithub} />
             </a>
-            <a href="">
+            <a href="https://connected-agency-react-app.netlify.app" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faLink} />
             </a>
           </div>

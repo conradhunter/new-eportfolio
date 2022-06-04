@@ -20,9 +20,8 @@ const About = () => {
             <span className="wave">👋 </span>
           </h3>
           <p id="about__para">
-            I am a self taught{" "}
-            <span className="textColor__blue">Frontend Developer</span> with a
-            passion for building{" "}
+            I am a <span className="textColor__blue">Frontend Developer</span>{" "}
+            with a passion for building{" "}
             <span className="textColor__blue">User friendly Interfaces</span>{" "}
             which create a positive
             <span className="textColor__blue"> User Experience</span>. If you
@@ -37,7 +36,7 @@ const About = () => {
       </div>
       <div id="about__logo">
         <figure>
-          <img src={logo} id='about__logo' alt="" />
+          <img src={logo} id="about__logo" alt="" />
         </figure>
       </div>
     </div>
