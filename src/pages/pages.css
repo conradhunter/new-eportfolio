@@ -365,7 +365,7 @@ textarea {
 .labelInput__container input {
   border: none;
   height: 30px;
-  padding: 4px;
+  padding: 6px 8px;
   background-color: #c5c5c5;
   border-bottom: 2px solid var(--babyBlue-color);
   border-radius: 3px;
@@ -374,7 +374,7 @@ textarea {
 }
 #contact__textArea {
   border: none;
-  padding: 4px;
+  padding: 6px 8px;
   background-color: #c5c5c5;
   border-bottom: 2px solid var(--babyBlue-color);
   border-radius: 3px;

@@ -20,41 +20,20 @@ const Nav = () => {
           <Link className="nav__bar--link link__hover--effect" to="/">
             About
           </Link>
-          <Link className="responsiveScreen__icons" to="/">
-            <FontAwesomeIcon
-              className="responsiveScreen__icons"
-              icon={faAddressCard}
-            />
-          </Link>
         </li>
         <li>
           <Link className="nav__bar--link link__hover--effect" to="/languages">
             Languages
-          </Link>
-          <Link className="responsiveScreen__icons" to="/languages">
-            <FontAwesomeIcon
-              className="responsiveScreen__icons"
-              icon={faFileCode}
-            />
           </Link>
         </li>
         <li>
           <Link className="nav__bar--link link__hover--effect" to="/projects">
             Projects
           </Link>
-          <Link className="responsiveScreen__icons" to="/projects">
-            <FontAwesomeIcon
-              className="responsiveScreen__icons"
-              icon={faDesktop}
-            />
-          </Link>
         </li>
         <li>
           <Link className="nav__bar--link link__hover--effect" to="/contact">
             Contact
-          </Link>
-          <Link className="responsiveScreen__icons" to="/contact">
-            <FontAwesomeIcon className="responsiveScreen__icons" icon={faAt} />
           </Link>
         </li>
       </ul>
