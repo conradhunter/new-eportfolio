@@ -46,7 +46,7 @@ const Projects = () => {
             <a href="https://github.com/conradhunter/wordle-clone" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faGithub} />
             </a>
-            <a href="">
+            <a href="https://conradhunter.github.io/wordle-clone/">
               <FontAwesomeIcon className="project__icon" icon={faLink} />
             </a>
           </div>
@@ -146,29 +146,6 @@ const Projects = () => {
           <figure>
             <img src={ePortfolio} id="project__img" alt="" />
           </figure>
-        </div>
-      </div>
-      <div className="project__wrapper--reverse">
-        <div className="project__img--container">
-          <figure>
-            <img src={agencyApp} id="project__img" alt="" />
-          </figure>
-        </div>
-        <div className="project__info--container">
-          <h2 className="project__title">Agency App</h2>
-          <h4 className="project__subTitle">React, JSX, JavaScript, CSS</h4>
-          <p className="project__para">
-            A freelance marketing and web development agency put together by
-            myself and some friends.
-          </p>
-          <div className="project__icon--links">
-            <a href="https://github.com/conradhunter/agency-app" target='_blank'>
-              <FontAwesomeIcon className="project__icon" icon={faGithub} />
-            </a>
-            <a href="https://connected-agency-react-app.netlify.app" target='_blank'>
-              <FontAwesomeIcon className="project__icon" icon={faLink} />
-            </a>
-          </div>
         </div>
       </div>
       <div id="projectsPage__buttons--container">
