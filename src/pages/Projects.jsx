@@ -7,7 +7,6 @@ import wordleClone from "../assets/wordle-clone-ss.png";
 import skinGym from "../assets/skin-gym-ss.png";
 import calculator from "../assets/calculator-ss.png";
 import ePortfolio from "../assets/client-e-port-ss.png";
-import agencyApp from "../assets/agency-ss.png";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
