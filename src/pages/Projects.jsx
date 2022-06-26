@@ -8,6 +8,7 @@ import skinGym from "../assets/skin-gym-ss.png";
 import calculator from "../assets/calculator-ss.png";
 import ePortfolio from "../assets/client-e-port-ss.png";
 import { Link } from "react-router-dom";
+import blog from '../assets/blog_ss.png';
 
 const Projects = () => {
   
@@ -33,6 +34,28 @@ const Projects = () => {
           <FontAwesomeIcon id="projects__gitHub--icon" icon={faGithub} />
         </a>
       </p>
+      <div className="project__wrapper--reverse">
+        <div className="project__img--container">
+          <figure>
+            <img src={blog} id="project__img" alt="" />
+          </figure>
+        </div>
+        <div className="project__info--container">
+          <h2 className="project__title">Blog App</h2>
+          <h4 className="project__subTitle">React, JSX, Firebase, JavaScript, CSS</h4>
+          <p className="project__para">
+            A blog app built with Firebase Google Authentication and a database to store blog posts
+          </p>
+          <div className="project__icon--links">
+            <a href="https://github.com/conradhunter/blog-app" target='_blank'>
+              <FontAwesomeIcon className="project__icon" icon={faGithub} />
+            </a>
+            <a href="https://svd-blog-app.netlify.app" target='_blank'>
+              <FontAwesomeIcon className="project__icon" icon={faLink} />
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="project__wrapper">
         <div className="project__info--container">
           <h2 className="project__title">Wordle Clone</h2>
@@ -45,7 +68,7 @@ const Projects = () => {
             <a href="https://github.com/conradhunter/wordle-clone" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faGithub} />
             </a>
-            <a href="https://conradhunter.github.io/wordle-clone/">
+            <a href="https://conradhunter.github.io/wordle-clone/" target='_blank'>
               <FontAwesomeIcon className="project__icon" icon={faLink} />
             </a>
           </div>
