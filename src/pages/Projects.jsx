@@ -10,6 +10,7 @@ import ePortfolio from "../assets/client-e-port-ss.png";
 import { Link } from "react-router-dom";
 import blog from '../assets/blog_ss.png';
 
+
 const Projects = () => {
   
   function scrollToTop() {
