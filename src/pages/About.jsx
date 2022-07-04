@@ -20,12 +20,9 @@ const About = () => {
             <span className="wave">👋 </span>
           </h3>
           <p id="about__para">
-            I am a <span className="textColor__blue">Frontend Developer</span>{" "}
-            with a passion for building{" "}
-            <span className="textColor__blue">User friendly Interfaces</span>{" "}
-            which create a positive
-            <span className="textColor__blue"> User Experience</span>. If you
-            feel I would be an asset to your company please don't hesitate to{" "}
+            I am a Frontend Developer with a passion for building User friendly
+            Interfaces which create a positive User Experience. If you feel I
+            would be an asset to your company please don't hesitate to{" "}
             <span className="textColor__blue">
               <Link id="contact__link" to="/contact">
                 contact me!

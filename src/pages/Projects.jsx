@@ -8,7 +8,7 @@ import skinGym from "../assets/skin-gym-ss.png";
 import calculator from "../assets/calculator-ss.png";
 import ePortfolio from "../assets/client-e-port-ss.png";
 import { Link } from "react-router-dom";
-import blog from '../assets/blog_ss.png';
+import blog from '../assets/blog-ss.png';
 
 
 const Projects = () => {
@@ -45,7 +45,7 @@ const Projects = () => {
           <h2 className="project__title">Blog App</h2>
           <h4 className="project__subTitle">React, JSX, Firebase, JavaScript, CSS</h4>
           <p className="project__para">
-            A blog app built with Firebase Google Authentication and a database to store blog posts
+            A blog app built with Firebase Google Authentication and a database to store blog posts.
           </p>
           <div className="project__icon--links">
             <a href="https://github.com/conradhunter/blog-app" target='_blank'>
@@ -136,7 +136,7 @@ const Projects = () => {
           <h2 className="project__title">Vanilla JavaScript Calculator</h2>
           <h4 className="project__subTitle">JavaScript, CSS, HTML</h4>
           <p className="project__para">
-            A fully functioning calculator build using Vanilla JavaScript.
+            A fully functioning calculator built using Vanilla JavaScript.
           </p>
           <div className="project__icon--links">
             <a href="https://github.com/conradhunter/JS-Calculator">
