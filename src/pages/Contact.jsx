@@ -22,10 +22,10 @@ const Contact = () => {
               <input required type="email" inputMode="email" name='email' />
             </div>
             <div className="labelInput__container">
-              <label className="form__label" inputMode="tel" htmlFor="number">
+              <label className="form__label"  htmlFor="number">
                 Phone Number
               </label>
-              <input type="text" name='phoneNumber' />
+              <input type="text" inputMode="tel" name='phoneNumber' />
             </div>
             <div className="labelInput__container">
               <label className="form__label"  htmlFor="messageSubject">

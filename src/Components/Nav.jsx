@@ -5,12 +5,7 @@ import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import resume from "../assets/conrad-hunter-resume.pdf";
-import {
-  faAddressCard,
-  faFileCode,
-  faDesktop,
-  faAt,
-} from "@fortawesome/free-solid-svg-icons";
+
 
 const Nav = () => {
   return (
